@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 10px;
+	font-family: "微软雅黑";
+}
+#register{
+	width: 100%;
+	height: 100%;
+	}
+.header{
+	width: 100%;
+	display: flex;
+	background: #18a9b9;
+}
+.arrow{
+	width: 16%;
+}
+.ico1{
+	border: 0.094rem solid #fff;
+    width: 0.9rem;
+    height: 0.9rem;
+    display: block;
+    border-left: 0px;
+    border-bottom: 0px;
+    transform: rotate(225deg);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    float: left;
+}
+.title{
+	font-size: 1.24rem;
+	color: #fff;
+	width: 70%;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	top: -2rem;
+    left: 4rem;
+    display: inline-block;
+    text-align: center;
+}
+.content{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.content .text{
+	width: 100%;
+	height: 10.8rem;
+	font-size: 1rem;
+}
+.content .text .from-conter{
+	width: 100%;
+	height: 3.5rem;
+	border-bottom: 0.07rem solid #ccc;
+	display: flex;
+	flex-direction: row;
+	line-height: 3.5rem;
+	-webkit-box-direction:normal;
+	background: #fff;
+}
+.conter-laber{
+	width: 20%;
+	color: #19a9ba;
+	text-align: left;
+	margin-left: 0.8rem;
+	background: #fff;
+}
+.content-container{
+	width: 80%;
+	position: relative;
+	background-color: #fff;
+}
+.content-container input{
+	width: 60%;
+	height: 3.3rem;
+	outline: 0;
+	border: 0;
+	font-size: 1rem;
+	line-height: 3.3rem;
+
+}
+.content-container img{
+	/*width: 1.5rem;*/
+	position: absolute;
+	top:0.9rem;
+	right: 1rem;
+	border-radius: 0.3rem;
+
+}
+.content-container .test{
+    width: 7.3rem;
+    height: 1.7rem;
+    border: 0.08rem solid #ccc;
+    display: block;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.7rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 0.3rem;
+}
+.content-container a{
+    text-decoration: none;
+    color: #d7dce0;
+}
+.button{
+	width: 100%;
+}
+.button input{
+	width: 98%;
+	height: 3rem;
+	margin: 1rem 1%;
+	background: #85d1db;
+	border: 0;
+	border-radius: 0.3rem;
+	font-size: 1.2rem;
+	color: #fff;
+}
+.char{
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	color: #9e9e9e;
+	font-size: 0.9rem;
+}
+.char a{
+	color: #9e9e9e;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 0;
+}
+.select{
+	width: 100%;
+	display: flex;
+	/*position: absolute;*/
+	bottom: 5.5rem;	
+	-webkit-box-direction:normal;
+	flex-direction: row;
+	text-align: center;
+}
+.select a{
+	color: #25a4bb;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+.select span{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+.footers{
+	width: 100%;
+	text-align: center;
+	height: 3.5rem;
+	line-height: 2.5rem;
+	font-size: 0.7rem;
+	color: #ccc;
+	border-top: 0.08rem solid #ccc;
+
+}

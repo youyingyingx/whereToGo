@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 10px;
+	font-family: "微软雅黑";
+}
+.header{
+	width: 100%;
+	height: 8.8rem;
+	background: url(../image/fx-banner.jpg) no-repeat ;
+	background-size: 100%;
+}
+.header .ico{
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+
+}
+.header .ico img{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.gd2{
+	width: 100%;
+	display: flex;
+	position: fixed;
+	height: 3.2rem;
+	z-index: 10;
+	bottom: 0;
+	background: #fff;
+}
+.gd2 img{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+.gd2 .shop{
+	width: 50%;
+	text-align: center;
+	
+}
+.my-title{
+	font-size: 0.9rem;
+	color: #666;
+}
+.none{
+	width: 100%;
+	height: 0.6rem;
+	background: #f0f3f5;
+}
+.none1{
+	width: 100%;
+	height: 2.6rem;
+	background: #f0f3f5;
+}
+.content{
+	width: 100%;
+}
+.content .text{
+	width: 100%;
+}
+.from-conter{
+	width: 100%;
+	height: 5.2rem;
+	background: #fff;
+	font-size: 1.4rem;
+	display: flex;
+	border-bottom: 1px solid #f3f3f3;
+	line-height: 5.2rem;
+}
+.money-img{
+	width:10%;
+	margin-top: 0.4rem;
+	margin-left: 0.8rem;
+}
+.money-img img{
+	width: 2.6rem;
+	height: 1.8rem;
+}
+.money-text{
+	color: #212121;
+	overflow: hidden;
+	width: 75%;
+	margin-left: 0.8rem;
+}
+.ad-text{
+	color: #212121;
+	overflow: hidden;
+	margin-left: 0.8rem;
+	width: 85%;
+}
+.time-text{
+	color: rgba(62,69,79,0.4);
+	margin-left: 0.8rem;
+	width: 85%;
+}
+.button{
+	width: 100%;
+}
+.button input{
+	width: 98%;
+	height: 4rem;
+	margin: 1rem 1%;
+	background: #ff9800;
+	border: 0;
+	border-radius: 0.3rem;
+	font-size: 1.6rem;
+	color: #fff;
+}
+.m-ico{
+	border: 0.084rem solid #ccc;
+    width: 0.7rem;
+    height: 0.7rem;
+    display: block;
+    border-left: 0px;
+    border-bottom: 0px;
+    transform: rotate(45deg);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    float: left;
+    position: relative;
+    top: 0.8rem;
+}
