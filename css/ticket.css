@@ -159,7 +159,7 @@ a{
 	line-height: 3.6rem;
 	border-top: 1px solid #f1f1f1;
 	display: flex;
-	text-align: center;
+	/* text-align: center; */
 	font-size: 1rem;
 }
 .address-list{
@@ -174,10 +174,14 @@ a{
 	height: 1rem;
 	position: absolute;
 	top: 1rem;
-	left: 6rem;
+	left: 30%;
 }
 .address-list .img1{
-	left: 7.2rem;
+	left: 30%;
+}
+.list-text{
+	position: absolute;
+	left: 40%;
 }
 .none{
 	width: 100%;
