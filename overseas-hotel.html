@@ -23,17 +23,17 @@
     <div class="hotel-search-box">
         <div class="mh-border-bottom line-tab-box">
             <ul class="mh-tab-base">
-                <li class="item item-on">
+                <li class="item item-on" onclick="myclick(1)">
                     <p class="mh-border-right">国内･港澳台</p>
-                    <i></i>
+                    <i class="i" id="i1" style="display: none"></i>
                 </li>
-                <li class="item-overseas">
-                    <p class="mh-border-right">海外</p>
-                    <i></i>
+                <li class="item">
+                    <p class="mh-border-right" onclick="myclick(2)">海外</p>
+                    <i class="i" id="i2" style="display: block"></i>
                 </li>
             </ul>
         </div>
-        <div class="content">
+        <div class="content" id="content_1" style="display: none">
             <div class="mh-border-bottom city-line">
                 <a href="#" class="icon-logo-1">
                     <img src="image/hotel-2.png">
@@ -88,6 +88,63 @@
                 <button class="submit">搜索</button>
             </div>
         </div>
+
+        <div class="content" id="content_2" style="display: block">
+            <div class="mh-border-bottom city-line">
+                <a href="#" class="icon-logo-1">
+                    <img src="image/hotel-2.png">
+                </a>
+                <div class="mlf55 city-selected">阿扎布比
+                    <a href="#" class="icon right f-right">
+                        <img src="image/hotel-6.png">
+                    </a>
+                </div>
+                <div class="my-location">
+                    <i class="icon-current">
+                        <img src="image/hotel-5.png">
+                    </i>
+                    <p>我的位置</p>
+                </div>
+            </div>
+            <div class="all-line-click time-select">
+                <a href="#" class="icon-logo-2">
+                    <img src="image/hotel-3.png">
+                </a>
+                <ul class="mh-border-bottom">
+                    <li>
+                        <span class="month">07月</span>
+                        <span class="mr5 day">12日</span>
+                        <span class="mr5 grey-color">今天</span>
+                        <span class="mr5 grey-color">入住</span>
+                    </li>
+                    <li>
+                        <span class="month">07月</span>
+                        <span class="mr5 day">13日</span>
+                        <span class="mr5 grey-color">明天</span>
+                        <span class="mr5 grey-color">离店</span>
+                        <span class="grey-color">共1晚</span>
+                    </li>
+                    <a href="#" class="icon right">
+                        <img src="image/hotel-6.png">
+                    </a>
+                </ul>
+            </div>
+            <div class="all-line-click key-word-line">
+                <a href="#" class="icon-search">
+                    <img src="image/hotel-4.png">
+                </a>
+                <div class="mh-border-bottom key-word">
+                    搜索酒店名、地名、地标
+                </div>
+                <a href="#" class="icon right">
+                    <img src="image/hotel-6.png">
+                </a>
+            </div>
+            <div class="submit-box">
+                <button class="submit">搜索</button>
+            </div>
+        </div>
+
         <div class="other-link">
             <p class="mh-border-right recent">
                 <a href="#">最近浏览</a>
@@ -99,6 +156,28 @@
     </div>
 
 </div>
+<script>
+    var myclick=function(v){
+        var tabs_i=document.getElementsByClassName("i");
+        for(var i=0;i<tabs_i.length;i++){
+            var tab_i=tabs_i[i];
+            if(tab_i==document.getElementById("i"+v)){
+                tab_i.style.display="block";
+            }else{
+                tab_i.style.display="none";
+            }
+        }
+        var contents=document.getElementsByClassName("content");
+        for(var i=0;i<contents.length;i++){
+            var content=contents[i];
+            if(content==document.getElementById("content"+"_"+v)){
+                content.style.display="block";
+            }else{
+                content.style.display="none";
+            }
+        }
+    }
+ </script>
 </body>
 </html>
 

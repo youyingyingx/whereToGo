@@ -95,7 +95,7 @@ body{
 .mh-border-right{
     border-right: 1px solid #eee;
 }
-.line-tab-box .mh-tab-base li.item-overseas i{
+.line-tab-box .mh-tab-base li.item i{
     width: 60%;
     height: 0.3rem;
     display: block;
